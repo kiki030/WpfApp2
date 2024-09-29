@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="計算質數視窗" Height="450" Width="800" Background="#FFEFE5B6">
     <Grid>
-
+        <Button x:Name="MyButton" Content="計算質數" HorizontalAlignment="Left" Margin="580,40,0,0" VerticalAlignment="Top" Height="55" Width="120" Background="#FF9BDED6" FontSize="22" FontWeight="Bold" Click="MyButton_Click"/>
+        <Label Content="請輸入一個數值" HorizontalAlignment="Left" Margin="50,53,0,0" VerticalAlignment="Top" Width="150" FontSize="18"/>
+        <TextBox x:Name="MyTextBox" HorizontalAlignment="Left" Margin="200,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" Height="40" VerticalContentAlignment="Center" FontSize="18"/>
+        <TextBlock x:Name="MytextBlock" HorizontalAlignment="Left" Margin="71,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="270" Width="649" FontSize="16" Background="#FFCCFBD1" FontFamily="Consolas" FontWeight="Bold"/>
     </Grid>
 </Window>
